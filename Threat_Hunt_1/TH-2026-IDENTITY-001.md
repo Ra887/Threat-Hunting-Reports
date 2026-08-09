@@ -850,77 +850,8 @@ New Privileged Role
 - Implement continuous access evaluation where supported.
 - Establish recurring identity threat hunts.
 - Monitor service principals and workload identities.
-- Develop automated SOAR response.
+- Develop an automated SOAR response.
 
----
-
-## 📈 Suggested Future Enhancements
-
-This repository can be expanded into a complete **SOC L2/L3 threat-hunting portfolio** by adding:
-
-- [ ] Realistic Entra ID sample logs
-- [ ] Microsoft Defender telemetry
-- [ ] Microsoft Sentinel analytics rules
-- [ ] 10–15 production-quality KQL hunts
-- [ ] Splunk SPL equivalents
-- [ ] CrowdStrike/Falcon hunting queries
-- [ ] YARA-L queries where applicable
-- [ ] Sigma detection rules
-- [ ] MITRE ATT&CK Navigator layer
-- [ ] Attack timeline
-- [ ] Investigation screenshots
-- [ ] Sentinel Workbooks
-- [ ] SOAR playbook
-- [ ] Automated session revocation
-- [ ] OAuth application containment workflow
-- [ ] Identity risk scoring implementation
-
----
-
-## 📁 Suggested Repository Structure
-
-```text
-identity-based-threat-hunting/
-│
-├── README.md
-│
-├── report/
-│   └── identity-based-attacks-threat-hunting-report.md
-│
-├── queries/
-│   ├── sentinel/
-│   │   ├── unusual_signins.kql
-│   │   ├── privileged_new_device.kql
-│   │   ├── mfa_changes.kql
-│   │   └── oauth_application_changes.kql
-│   │
-│   ├── splunk/
-│   │   └── README.md
-│   │
-│   └── crowdstrike/
-│       └── README.md
-│
-├── detections/
-│   ├── identity_anomaly.yaml
-│   ├── oauth_abuse.yaml
-│   └── privileged_account_anomaly.yaml
-│
-├── mitre/
-│   └── attack-mapping.md
-│
-├── playbooks/
-│   └── identity-compromise-response.md
-│
-├── intelligence/
-│   └── threat-intelligence.md
-│
-├── screenshots/
-│   └── README.md
-│
-└── LICENSE
-```
-
----
 
 ## 📚 MITRE ATT&CK References
 
@@ -971,7 +902,7 @@ This project contains threat-hunting methodology, detection logic, identity atta
 
 ---
 
-## 👤 Author
+## 👤 Author: Rahul Kumar Sawariya
 
 **SOC Analyst / Threat Hunter**
 
